@@ -1,0 +1,19 @@
+/* * {
+  margin: 0;
+} */
+
+/* .App {
+  background-color: #78AEFF;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+} */
+
+.app {
+  background-color: #78AEFF; 
+  height: 100vh;
+  display: flex;
+}
+
+

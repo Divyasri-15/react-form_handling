@@ -1,0 +1,108 @@
+.form {
+    width: 35%;
+    box-sizing: border-box;
+    padding-top: 12vh;
+    padding-left: 5%;
+}
+
+.form-header {
+    width:auto;
+    color: white;
+    text-align: center;
+    padding-top:15px;
+    padding-bottom: 15px;
+    background: #F00000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+    border-radius: 5px;
+}
+
+.form-body {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 30px 20px;
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+    border-radius: 7px;
+
+}
+
+.form-body input {
+    padding: 15px 25px;
+    margin: 10px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.form-selectSkillSet {
+    padding: 15px 20px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+.form-skillset {
+    margin: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.form-skillTag {
+    display: flex;
+    gap: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 99.19%;
+    letter-spacing: 0.01em;
+    color: #777777;
+    padding: 5px 15px;
+    background: #DCDCDC;
+    border-radius: 12px;
+}
+
+.form-skillTag span {
+    cursor: pointer;
+}
+
+.form-ButtonInactive {
+    margin: 10px;
+    background: #B5B5B5;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.46);
+    border-radius: 4px;
+    padding: 14px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
+.form-ButtonActive {
+    margin: 10px;
+    background: #37CC8A;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.46);
+    border-radius: 4px;
+    padding: 14px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 13.5px;
+    cursor: pointer;
+    letter-spacing: 0.025em;
+}
+
+.form-note {
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    color: #C2C2C2;
+    margin-bottom: 10px;
+}
+
+.form-note span{
+    color: red;
+}
